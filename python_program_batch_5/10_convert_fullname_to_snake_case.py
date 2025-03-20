@@ -9,4 +9,7 @@ while True:
         print("Invalid input. Enter your full name.")
 
 # Convert to snake case
+snake_case_name = '_'.join(name.lower().split())
+
 # Print the name in snake case
+print(snake_case_name)
