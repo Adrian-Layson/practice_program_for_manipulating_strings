@@ -7,6 +7,9 @@ while True:
         break
     else:
         print("Invalid input. Enter your full name.")
-        
+
 # Convert to pascal case
+pascal_case_name = ''.join(word.capitalize() for word in name.split())
+
 # Print the name in pascal case
+print(pascal_case_name)
