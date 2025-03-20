@@ -9,4 +9,7 @@ while True:
         print("Invalid input, Enter a complete statement.")
 
 # Count the number of words in the input
+word_count = len(statement.split())
+
 # Print the number of word
+print(f"There are {word_count} words in your statement")
