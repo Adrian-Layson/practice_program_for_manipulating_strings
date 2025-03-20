@@ -9,3 +9,4 @@ while True:
         print("Invalid input, Enter your full name.")
 
 # Print the name in proper casing
+print(name.title())
