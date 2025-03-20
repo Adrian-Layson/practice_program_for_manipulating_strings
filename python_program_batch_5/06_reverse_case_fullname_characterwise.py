@@ -9,3 +9,4 @@ while True:
         print("Invalid input, Enter your full name.")
 
 # Swap the casing of characters
+print(name.swapcase())
