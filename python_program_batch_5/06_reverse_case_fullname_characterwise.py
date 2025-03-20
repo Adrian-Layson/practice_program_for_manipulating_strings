@@ -1,5 +1,5 @@
 while True:
-# Ask user for input
+    # Ask user for input
     name = input("Enter your full name (incorrect casing): ").strip()
 
     # Check if input is empty or invalid
