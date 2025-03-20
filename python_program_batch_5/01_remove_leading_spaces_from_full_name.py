@@ -4,7 +4,7 @@ while True:
 
     # Check if input has no leading spaces
     if name == name.lstrip():
-        print("Input has no spaces at the beginning. Please try again.")
+        print("Input has no spaces at the beginning. Try again.")
         continue  # Ask for input again
 
     # Print name without leading spaces
